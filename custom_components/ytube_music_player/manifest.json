@@ -3,19 +3,20 @@
   "name": "YouTube Music Player",
   "codeowners": [
     "@KoljaWindeler",
-    "@mang1985"
+    "@mang1985",
+    "@bullkerem"
   ],
   "config_flow": true,
   "dependencies": [
     "persistent_notification"
   ],
-  "documentation": "https://github.com/KoljaWindeler/ytube_music_player",
+  "documentation": "https://github.com/bullkerem/ha-ytube-music-player",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/KoljaWindeler/ytube_music_player/issues",
+  "issue_tracker": "https://github.com/bullkerem/ha-ytube-music-player/issues",
   "requirements": [
     "ytmusicapi==1.12.2",
     "pytubefix>=10.7.2",
     "integrationhelper==0.2.2"
   ],
-  "version": "20260816.01"
+  "version": "20261113.01"
 }
